@@ -12,6 +12,5 @@ y = image.height - text_height - 10
 
 draw.text((x, y), watermark_text, font=font, fill=text_color)
 
-
 image.save("watermarked_image.png")
 
