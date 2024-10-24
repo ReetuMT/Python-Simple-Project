@@ -2,7 +2,6 @@ from PIL import Image, ImageFilter, ImageOps
 
 img = Image.new('RGB', (400, 400), (255, 0, 0))
 img.show()
-
 try:
     im = Image.open('Image Process/colours.png')
 except FileNotFoundError:
